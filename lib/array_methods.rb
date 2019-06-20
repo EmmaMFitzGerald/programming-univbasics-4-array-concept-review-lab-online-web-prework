@@ -1,6 +1,6 @@
 def find_element_index(array, value_to_find)
-  array.each do 
-  p value_to_find[i]
+ def find_element_index(array, value_to_find)
+  array.index(value_to_find)
 end
 
 find_element_index([1,3,4,5,6,2,9,10],3)

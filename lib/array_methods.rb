@@ -1,10 +1,9 @@
 def find_element_index(array, value_to_find)
-  # Add your solution here
+  array.each do 
+  p value_to_find[i]
 end
 
-def find_max_value(array)
-  # Add your solution here
-end
+find_element_index([1,3,4,5,6,2,9,10],3)
 
 def find_min_value(array)
   # Add your solution here
